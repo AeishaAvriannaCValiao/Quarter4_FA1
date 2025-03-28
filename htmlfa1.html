@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doctors Without Borders Support Form</title>
+  <link rel="stylesheet" href="stylesfa1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Support Doctors Without Borders</h1>
+    <p>
+      I am supporting Doctors Without Borders because of their dedication to providing life-saving medical care to people in need, regardless of race, religion, or political belief. 
+      First, they respond quickly to emergencies such as natural disasters, outbreaks, and armed conflicts. 
+      Second, they operate in some of the most dangerous and remote areas where medical help is needed the most. 
+      Lastly, they offer free and quality healthcare to vulnerable communities who otherwise cannot afford it.
+    </p>
+
+    <form id="charityForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required><br>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required><br>
+
+     <label>Sex:</label>
+	<div class="radio-group">
+	  <label for="male">
+      <input type="radio" id="male" name="sex" value="Male" required>
+      Male
+      </label>
+       <label for="female">
+      <input type="radio" id="female" name="sex" value="Female">
+      Female
+      </label>
+      <label for="prefer">
+      <input type="radio" id="prefer" name="sex" value="Prefer not to say">
+      Prefer not to say
+      </label>
+     </div>
+
+
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="contact">Contact Number:</label>
+      <input type="text" id="contact" name="contact"><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+
+</body>
+</html>
